@@ -26,7 +26,7 @@ function historyQuiz(question, answer) {
 }
 //question inside array using object
 var quiz = [{
-  question: 'Q1. Where does he live ', answer: "Navi Mumbai"
+  question: 'Q1. Where does he live ?', answer: "Navi Mumbai"
 },
 {
   question: 'Q2. What is his qualification? ',
@@ -67,7 +67,7 @@ var bestScore = [{
 }]
 function checkscore() {
   console.log("Yay!!! you score  " + score)
-  console.log("check out the high score if you beat please share a screenshot i will update")
+  console.log("check out the high score if you beat please share a screenshot I will update")
 }
 checkscore();
 function showScore(name, score) {
